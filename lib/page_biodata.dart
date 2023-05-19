@@ -16,41 +16,11 @@ class _PageBiodataState extends State<PageBiodata> {
           child: Column(
         children: [
           Image.network(
-              'https://lh3.googleusercontent.com/a/AGNmyxbY4jPZwcgfKDo0j5x5cOY_NBVeYvgjDCVrCZs4bw=s96-c-rg-br100'),
+              'https://avatars.githubusercontent.com/u/57038754?s=400&u=a2331c789bd6f76cab7a566519eb9c9ef130f80a&v=4'),
           SizedBox(height: 16),
           Text("Arip"),
           SizedBox(height: 16),
-          Text("Guru Rekayasa Perangkat Lunak"),
-          Image.network(
-              'https://lh3.googleusercontent.com/a/AGNmyxbY4jPZwcgfKDo0j5x5cOY_NBVeYvgjDCVrCZs4bw=s96-c-rg-br100'),
-          SizedBox(height: 16),
-          Text("Arip"),
-          SizedBox(height: 16),
-          Text("Guru Rekayasa Perangkat Lunak"),
-          Image.network(
-              'https://lh3.googleusercontent.com/a/AGNmyxbY4jPZwcgfKDo0j5x5cOY_NBVeYvgjDCVrCZs4bw=s96-c-rg-br100'),
-          SizedBox(height: 16),
-          Text("Arip"),
-          SizedBox(height: 16),
-          Text("Guru Rekayasa Perangkat Lunak"),
-          Image.network(
-              'https://lh3.googleusercontent.com/a/AGNmyxbY4jPZwcgfKDo0j5x5cOY_NBVeYvgjDCVrCZs4bw=s96-c-rg-br100'),
-          SizedBox(height: 16),
-          Text("Arip"),
-          SizedBox(height: 16),
-          Text("Guru Rekayasa Perangkat Lunak"),
-          Image.network(
-              'https://lh3.googleusercontent.com/a/AGNmyxbY4jPZwcgfKDo0j5x5cOY_NBVeYvgjDCVrCZs4bw=s96-c-rg-br100'),
-          SizedBox(height: 16),
-          Text("Arip"),
-          SizedBox(height: 16),
-          Text("Guru Rekayasa Perangkat Lunak"),
-          Image.network(
-              'https://lh3.googleusercontent.com/a/AGNmyxbY4jPZwcgfKDo0j5x5cOY_NBVeYvgjDCVrCZs4bw=s96-c-rg-br100'),
-          SizedBox(height: 16),
-          Text("Arip"),
-          SizedBox(height: 16),
-          Text("Guru Rekayasa Perangkat Lunak"),
+          Text("Rekayasa Perangkat Lunak"),
         ],
       )),
     );

@@ -18,7 +18,7 @@ class _PagePertamaState extends State<PagePertama> {
         shadowColor: Colors.blue,
         backgroundColor: Colors.black,
         centerTitle: true,
-        title: Text("Projek Tugas Pertama Bootcam Flutter"),
+        title: const Text("Projek Tugas Pertama Bootcam Flutter"),
       ),
       body: Container(
           width: double.infinity,
@@ -30,16 +30,16 @@ class _PagePertamaState extends State<PagePertama> {
                     'https://i0.wp.com/dianisa.com/wp-content/uploads/2022/12/5.-Wallpaper-HD-Drag-Sport-Car-Keren.jpg?w=720&ssl=1'),
                 fit: BoxFit.cover),
           ),
-          child: Center(
+          child: const Center(
             child: Text(
               'Selamat Datang',
               style: TextStyle(color: Colors.white),
             ),
           )),
-      floatingActionButton: new FloatingActionButton(
+      floatingActionButton: FloatingActionButton(
           tooltip: "Biodata Arip",
           elevation: 0.0,
-          child: new Icon(Icons.ads_click),
+          child: const Icon(Icons.ads_click),
           backgroundColor: Colors.blue,
           splashColor: Colors.yellow,
           hoverColor: Colors.red,
@@ -47,7 +47,7 @@ class _PagePertamaState extends State<PagePertama> {
             Navigator.push(
               context,
               CupertinoPageRoute(
-                builder: (context) => new MenuUtama(),
+                builder: (context) => const MenuUtama(),
               ),
             );
           }),

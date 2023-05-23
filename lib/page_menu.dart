@@ -1,4 +1,3 @@
-//import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import './page_biodata.dart' as PageBiodata;
 import './page_medsos.dart' as MediaSoisal;
@@ -34,23 +33,23 @@ class _MenuUtamaState extends State<MenuUtama>
         leading: BackButton(),
         backgroundColor: Colors.blue,
         toolbarHeight: 30,
-        title: new Text("Projek Tugas Pertama Bootcam Flutter"),
+        title: const Text("Projek Tugas Pertama Bootcam Flutter"),
         bottom: TabBar(controller: controller, tabs: <Widget>[
-          new Tab(
-            icon: new Icon(Icons.people_alt_sharp),
+          const Tab(
+            icon: Icon(Icons.people_alt_sharp),
             text: "Profil",
           ),
-          new Tab(
-            icon: new Icon(Icons.mediation_outlined),
+          const Tab(
+            icon: Icon(Icons.mediation_outlined),
             text: "Media Sosial",
           ),
         ]),
       ),
-      body: new TabBarView(
+      body: TabBarView(
         controller: controller,
         children: <Widget>[
-          new PageBiodata.PageBiodata(),
-          new MediaSoisal.MediaSoisal(),
+          const PageBiodata.PageBiodata(),
+          const MediaSoisal.MediaSoisal(),
         ],
       ),
       // bottomNavigationBar: new Material(

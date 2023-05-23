@@ -1,10 +1,6 @@
-import 'dart:html';
-import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:getwidget/getwidget.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:url_launcher/url_launcher_string.dart';
 
 final Uri _urlfb = Uri.parse('https://web.facebook.com/EthemCool');
 final Uri _urlig = Uri.parse('https://www.instagram.com/aripethem');

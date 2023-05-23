@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 
 class PageBiodata extends StatefulWidget {
@@ -11,18 +13,54 @@ class _PageBiodataState extends State<PageBiodata> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
       body: SingleChildScrollView(
+        child: Container(
+          padding: EdgeInsets.all(16.0),
           child: Column(
-        children: [
-          Image.network(
-              'https://avatars.githubusercontent.com/u/57038754?s=400&u=a2331c789bd6f76cab7a566519eb9c9ef130f80a&v=4'),
-          SizedBox(height: 16),
-          Text("Arip"),
-          SizedBox(height: 16),
-          Text("Rekayasa Perangkat Lunak"),
-        ],
-      )),
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: <Widget>[
+              Container(
+                alignment: Alignment.center,
+                child: CircleAvatar(
+                    radius: 80,
+                    backgroundImage: AssetImage('assets/images/arip.png')),
+              ),
+              SizedBox(height: 16.0),
+              Card(
+                child: ListTile(
+                  title: Text('Nama '),
+                  subtitle: Text('Arip'),
+                  leading: Icon(Icons.person),
+                ),
+              ),
+              SizedBox(height: 16.0),
+              Card(
+                child: ListTile(
+                  title: Text('Pekerjaan'),
+                  subtitle: Text('Teacher'),
+                  leading: Icon(Icons.badge),
+                ),
+              ),
+              SizedBox(height: 16.0),
+              Card(
+                child: ListTile(
+                  title: Text('Instansi'),
+                  subtitle: Text('SMKN 4 Tasikmalaya'),
+                  leading: Icon(Icons.school),
+                ),
+              ),
+              SizedBox(height: 16.0),
+              Card(
+                child: ListTile(
+                  title: Text('Tujuan Ikut Bootcam Flutter'),
+                  subtitle: Text('Untuk Diamalkan Ke Siswa'),
+                  leading: Icon(Icons.book),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }
